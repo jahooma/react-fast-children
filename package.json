@@ -1,6 +1,6 @@
 {
   "name": "react-fast-children",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fast diffing over many react children, using cool data structures & algorithms.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/jahooma/react-fast-children/issues"
   },
+  "homepage": "https://throne.live/ReactFastChildren",
   "keywords": [
     "react",
     "fast",
