@@ -1,4 +1,4 @@
-import { diffLists } from '../lib/diff-lists'
+import { diffLists } from '../diff-lists'
 
 describe('diffLists', () => {
 	it('should diff', () => {

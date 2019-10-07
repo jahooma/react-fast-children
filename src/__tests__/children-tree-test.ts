@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-import * as CT from '../lib/children-tree'
+import * as CT from '../children-tree'
 
 type children_tree<T> = {
 	children: (T | children_tree<T>)[]
