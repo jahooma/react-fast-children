@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 
-import * as CT from '../lib/children-tree'
+import * as CT from '../children-tree'
 
 export const useChildrenTree = <T>(
 	changes: {

@@ -1,7 +1,7 @@
 {
   "name": "react-fast-children",
   "version": "1.0.0",
-  "description": "It be fast",
+  "description": "Fast diffing over many react children, using cool data structures & algorithms.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,11 @@
   "bugs": {
     "url": "https://github.com/jahooma/react-fast-children/issues"
   },
-  "keywords": ["react", "fast", "children"],
+  "keywords": [
+    "react",
+    "fast",
+    "children"
+  ],
   "peerDependencies": {
     "react": ">= 16.8.0"
   },
@@ -32,6 +36,7 @@
   },
   "devDependencies": {
     "@types/diff": "^4.0.2",
+    "@types/react": "^16.9.5",
     "jest": "^24.8.0",
     "react": "16.10.1",
     "ts-jest": "^24.0.2",
@@ -40,7 +45,8 @@
   "jest": {
     "moduleFileExtensions": [
       "ts",
-      "tsx"
+      "tsx",
+      "js"
     ],
     "transform": {
       "^.+\\.tsx?$": "ts-jest"

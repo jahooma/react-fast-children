@@ -2,7 +2,7 @@ import { FastChildren } from './components/fast-children'
 import { ChildrenTree } from './components/children-tree'
 import { useChanges } from './hooks/use-changes'
 import { useChildrenTree } from './hooks/use-children-tree'
-import { empty, singleton, insert, remove, children_tree} from './lib/children-tree'
+import { empty, singleton, insert, remove, children_tree} from './children-tree'
 
 export {
 	FastChildren,

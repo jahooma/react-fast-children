@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 
-import { children_tree } from '../lib/children-tree'
+import { children_tree } from '../children-tree'
 
 export const ChildrenTree = memo((props: {
 	tree: children_tree<JSX.Element>

@@ -1,4 +1,4 @@
-import { diffLists } from '../lib/diff-lists'
+import { diffLists } from '../diff-lists'
 import { usePrevious } from './use-previous'
 
 export function useChanges<T extends JSX.Element | string>(children: T[]) {
