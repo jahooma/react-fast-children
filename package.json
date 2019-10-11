@@ -1,6 +1,6 @@
 {
   "name": "react-fast-children",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Faster rendering of React children, using cool data structures & algorithms.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
